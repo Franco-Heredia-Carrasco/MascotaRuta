@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private void abrirFormulario() {
         Intent intent = new Intent(MainActivity.this, RegistrarMascotaActivity.class);
         startActivity(intent);
+
     }
 }
 
